@@ -1,0 +1,29 @@
+tr:nth-child(even) {
+    background-color: rgba(0, 255, 255, 0.4);
+}
+  
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(138, 249, 249, 0.4);
+}
+body{
+    background-color: black;
+}
+table{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    width: 70%;
+    height: 40%;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+td,th{
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;    
+    width: 30px;
+}
